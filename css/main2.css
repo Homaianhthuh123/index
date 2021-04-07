@@ -1,0 +1,701 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+			width: 100%;
+			height: 3300px;
+			background-color:#FFFFFF ;
+		}
+.heder{
+			width: 100%;
+			height: 600px;
+			background-image:url("../images/2021_new_wedding_banner@1x.jpg");
+	
+	  }
+.menu {
+			width: 100%;
+			height: 50px;
+			
+	  }
+.logo 
+	 {
+			width: 30%;
+			height:  30px;
+			color: aliceblue;
+			border-image: 0px;
+			padding: 1% 1% 1% 1%;
+			font-size: 30px;
+		 	float: left;
+	}
+			
+			
+.menucon 
+	{
+			width: 50%;
+			height:  100px;
+			float: right;
+			position:relative;
+			font-size: 20px;
+			margin-top: 10px;
+	}
+		
+	.menu ul {
+		list-style-type: none;
+	}
+	.menu ul li {
+		float: left;
+		padding: 0 20px 0 20px;
+		position: relative;
+		display: inline-block;
+
+	}
+
+	.menu ul li a {
+		text-decoration: none;
+		color: aliceblue;
+	}
+
+	.menu ul li:hover a{
+		
+		text-decoration: underline;
+	}
+
+	.menu ul li ul{
+		position: absolute;
+		left: 0px;
+		
+		visibility: hidden;
+	}
+
+	.menu ul li:hover ul {
+		visibility: visible;
+	}
+	.menu ul li ul li {
+		float: none;
+		width: 120px;
+	}
+	.menu ul li ul li:hover a{
+		text-decoration: none;
+	}
+/*	
+	width: 200px;
+	height: 50px;
+	margin-right: 5%;
+	margin: 250px 870px;
+	font-size: 20px;
+	font-weight: 500;
+	}
+input{*/
+	.button{
+		width: 200px;
+		height: 38px;
+		margin: 280px 870px;
+		font-size: 30px;
+		background-color:none; 
+		text-align: center;
+		border: solid aliceblue;
+		border-radius: 10px 10px 10px 10px;
+		
+	}
+	.button a{
+		text-decoration: none;
+		color: aliceblue;
+	}
+	.button:hover a{
+		text-decoration: underline;
+	}
+.noidung{
+			width: 100%;
+			height: 530px;
+			background-color:#FFFFFF ;
+	
+	  }
+.noidungtrai{
+		width: 40%;
+		height: 400px;
+		float: left;
+		margin-left: 30px;
+		margin-top: 7px;
+	}
+
+.noidungtrai img{
+		width: 100px;
+		height: 150px;
+		float: left;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+
+.noidungphai{
+		width: 42%;
+		height: 400px;
+		float: right;
+		margin-top: 50px;
+	}
+
+.button2{
+		width: 200px;
+		height: 38px;
+		margin-top: 20px;
+		font-size: 30px;
+		background-color:none; 
+		text-align: center;
+		border: solid #000000;
+		border-radius: 10px 10px 10px 10px;
+		
+	}
+	.button2 a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.button2:hover a{
+		text-decoration: underline;
+	}
+.noidungphai h1{
+		margin-top: 2px;
+		font-size: 40px;
+	}
+
+
+
+
+
+.noidung2{
+			width: 100%;
+			height: 550px;
+			background-image: url("../images/thu1.png") ;
+	
+	  }
+.noidungtrai2{
+		width: 40%;
+		height: 400px;
+		float: left;
+		margin-left: 10%;
+		margin-top: 80px;
+		
+	}
+.noidungtrai2 h1{
+	
+	font-size: 40px;
+}
+.noidungphai2{
+		width: 42%;
+		height: 400px;
+		float: right;
+/*		position:relative;*/
+	}
+.noidungphai2x{
+/*		position: absolute;*/
+		width: 165px;
+		height: 312px;
+		margin-top: 160px;
+		margin-left: 32px;
+		position:relative;
+	}
+
+.logo100{
+		width: 100%;
+		height: 60px;
+		font-size: 30px;
+		color: #000000;
+		border-image: 0px;
+		padding: 1% 1% 1% 1%;
+	}
+/*.button3{
+		width: 200px;
+		height: 38px;
+		margin-top: 20px;
+		font-size: 30px;
+		background-color:none; 
+		text-align: center;
+		border: solid #FFFFFF;
+		border-radius: 10px 10px 10px 10px;
+		
+	}
+	.button3 a{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	.button3:hover a{
+		text-decoration: underline;
+	}
+*/
+.stickernoidung2{
+		width: 20px;
+		height: 40px;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+.hinhnho img{
+	opacity: 0.5;
+	
+}
+.hinhnho:hover img{
+	opacity: 1;
+	transform: scale(1.2);
+	transition: all 1s ease;
+
+}
+
+
+
+
+.noidung3{
+			width: 100%;
+			height: 700px;
+			background-color: #323C6D;
+			position: relative;
+	  }
+
+.noidung3trai{
+		width: 30%;	
+		height: 200px;
+		color: aliceblue;
+		float: left;
+		margin-left: 10%;
+		margin-top: 80px;
+	}
+.noidungtrai3 h2{
+		color: aliceblue;
+		font-size:5px;
+	}
+
+.noidung3giua{
+		width: 25%;
+		height: 200px;
+		color: aliceblue;
+		float: left;
+		margin-top: 80px;
+		font-size: 10px;
+		
+		
+	}
+
+.noidung3phai{
+		width: 20%;
+		height: 200px;
+		color: aliceblue;
+		float: left;
+		margin-left: 30px;
+		margin-top: 80px;
+		font-size: 10px;
+	}
+.noidung3logo{
+		width: 78%;
+		height: 200px; 
+		margin-top: 10px;
+		margin-left: 13%;
+	}
+.logonho{
+		width: 10%;
+		height: 200px;
+		float: left;
+		margin-left: 5%;
+		color: aliceblue;
+		font-size: 15px;
+		text-align: center;
+	}
+
+.logonho img{
+		width: 100%;
+		height: 60%;
+		margin-top: 5px;
+		opacity: 0.5;
+	}
+.logonho:hover .label{
+		opacity: 1;
+		transition: all 1s ease;
+		transform: translateX(5px);
+	}
+.label{
+		width: 100px;
+		height: 50px;
+		background-color: #323C6D;
+		position: absolute;
+		top:500px;
+		font-size: 15px;
+		font-weight: 600;
+		padding: 0px;
+		text-align: center;
+		border-radius: 20px;
+		line-height: 50px;
+		opacity: 0;
+		color: aliceblue;
+	}
+.logonho:hover img{
+		opacity: 1;
+		transform: scale(1.2);
+		transition: all 1s ease;
+
+	}
+
+
+
+
+
+
+.footer{
+		width: 100%;
+		height: 700px;
+		background-image: url("../images/foot.jpg");
+		
+	  }
+
+.footertrai{
+		width: 35%;
+		height: 400px;
+		float: left;
+		margin-left: 5%;
+		margin-top: 15%;
+		color: aliceblue;
+	}
+.footer h1{
+		color: aliceblue;
+		font-size: 50px;
+	
+	}
+.footerphai{
+		width: 55%;
+		height: 400px;
+		float: right;
+		margin-top: 15%;
+		color: aliceblue;
+	}
+.row1{
+		height: 50px;
+		width: 230px;
+		margin-left: 10px;
+		float: left;
+	
+	}
+.rowtext{
+		height: 50px;
+		width: 80px;
+		float: left;
+		text-align: center;
+		font-size: 20px;
+		color: aliceblue;
+	
+	}
+
+.rowbox{
+		height: 50px;
+		width: 150px;
+		float: left;
+
+	}
+
+
+.roxwbox input{
+		width: 150px;
+		height: 30px;
+		border-left: none;
+		border-top: none;
+		border-right: none;
+		color: aliceblue;
+		background-color: rgba(255,255,255,0.00);
+	}
+.row2{
+		width: 800px;
+		height: 50px;
+		margin-top: 10px;
+		margin-left: 10px;
+
+	}
+.rowbox2{
+		width: 610px;
+		height: 50px;
+		float: left;
+		margin-top: 10px;
+	}
+.rowbox2 input{
+		width: 610px;
+		height: 30px;
+		border-left: none;
+		border-top: none;
+		border-right: none;
+		color: aliceblue;
+		background-color: rgba(255,255,255,0.00);
+	}
+.rowtext2{
+		height: 50px;
+		width: 100px;
+		float: left;
+		text-align: center;
+		font-size: 20px;
+		color: aliceblue;
+		margin-top: 10px;
+	}
+.footerrow{
+		height: 50px;
+		width: 100%;
+		margin-top: 10px;
+	}
+.footertrai img{
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+	}
+
+
+.logonhanhang{
+		width: 100%;
+		height: 200px;
+	}
+.logonhanhang img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/*slide show*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*het slideshow*/
+
+
+
+
+/*slight box*/
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*het slight box*/
+
+
+
+.lightboxnoidung{
+	width: 100%;
+	height: 150;
+	
+}
